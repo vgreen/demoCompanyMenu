@@ -5,13 +5,21 @@ body{
 	
 }	
 	.sidenav-trigger{
+		opacity: 0.8;
 		display: none;
+		position: fixed;
+		background: #48bcf5ab;
+		height: 50px;
+		width: 50px;
+		border-radius: 100%;
+		align-items: center;
+		justify-content: center;
 	}
 	.menu1{
 		height: 836px;
 		width:245px;
 		position: fixed;
-		background: white;
+		background: #ecf0f1;
 		left:70px;
 		top:70px;
 		border-radius: 1px;
@@ -29,7 +37,7 @@ body{
 
 	.content{
 		padding: 15px;
-		background: white;
+		background: #ecf0f1;
 		width: 70%;
 		margin-top: 70px;
 		margin-left: 380px;
@@ -37,7 +45,7 @@ body{
 		overflow-y: scroll;
 	}
 
-@media screen and (max-width: 668px){
+@media screen and (max-width: 666px){
 
 	.menu1{
 		display: none;
@@ -48,12 +56,14 @@ body{
 		width: 100%;
 	}
 	.sidenav-trigger{
-		display: block;
+		display: flex;
+		left: 20px;
+		bottom: 40px;
 	}
 }
 
 
-@media screen and (max-width: 668px) and (orientation: portrait){
+@media screen and (max-width: 666px) and (orientation: portrait){
 
 	.menu1{
 		display: none;
